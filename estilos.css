@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+address{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
 .cuerpo{
     background: #FDFC47;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
@@ -17,7 +21,9 @@ h1{
 h2{
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: red;
 }
 header,section,footer,aside,nav,article,hgroup{
     display: block;
