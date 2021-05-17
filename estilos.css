@@ -49,16 +49,28 @@ body{
 }
 .menu{
     background: #071d49;
-    padding: 5px 15px;
+    padding: 0px 10px;
     color: white;
     text-align: left;
-}
-.menu li{
-    list-style: none;
-    padding: 5px;
-    font: bold 14px verdana;
-    display: inline-block;
+    overflow: hidden;
     
+}
+.menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 19px;
+    
+  }
+.menu a:hover {
+    background-color: rgb(55, 184, 243);
+    color: black;
+ }
+.menu a.active {
+    background-color: #04AA6D;
+    color: white;
 }
 article{
     background: #e6e6fa;
@@ -141,3 +153,8 @@ p{
     margin-top: 0px;
     padding-top: 0px;
 }
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
