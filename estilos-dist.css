@@ -150,3 +150,30 @@ p{
     padding-top: 0px;
 
 }
+form{
+    text-align: center;
+}
+legend{
+    margin-left: 12px;
+}
+textarea{
+    width: 95%;
+    resize: vertical;
+}
+.div_boton_enviar{
+    text-align: left;
+    padding-left: 12px;
+}
+.boton_enviar{
+    width: 90px;
+    height: 30px;
+    background: rgb(7, 42, 133);
+    color:rgb(253, 249, 249);
+    
+}
+.boton_enviar:hover{
+    width: 90px;
+    height: 30px;
+    background: rgb(14, 75, 241);
+    color:rgb(244, 248, 7);
+}
