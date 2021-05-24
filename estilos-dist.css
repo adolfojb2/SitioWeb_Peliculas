@@ -31,11 +31,12 @@ body{
     text-align: center;
 }
 .agrupar{
-    width: 960px;
+    width: 100%;
     margin: 0px auto;
     padding: 0px;
     background: white;
 }
+/* Cabezera ========================================== */
 .cabezera{
     background: #159957;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -45,6 +46,7 @@ body{
 .cabezera h1{
     text-align: left;
 }
+/* Barra de navegación ================================== */
 .menu{
     background: #071d49;
     padding: 0px 10px;
@@ -75,40 +77,53 @@ ul{
     margin: 0;
     padding: 0;
   }
+  /* ===================================================== */
+  /* Articulos =========================================== */
 article{
     background: #e6e6fa;
     padding: 20px;
     margin-bottom: 15px;
-
-}
+ }
 div .fecha_hora{
     color: black;
     text-align: left;
-}
-footer{
-    background: white;
-    padding-top:5px;
-    padding-bottom: 5px;
-}
+ }
 article footer{
     text-align: right;
     margin-top: 20px;
+ }
+p{
+    margin-top: 20px;
 }
+.portada{
+    width: 300px;
+    height: 400px;
+    border: 3px solid red;
+    margin-bottom: 10px;
+ }
+.descripcion{
+    text-align: justify;
+    font-family: sans-serif;
+    font-weight:lighter;
+    font-size: 15px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+/* ======================================================== */
 .seccion{
-    margin: 20px;
-    width: 65%;
+    margin: 5px;
+    width: 71%;
     float: left;
 }
 .columna{
-    background: #e6e6fa;
-    margin: 20px 0;
-    width: 27%;
+    background: #fad507;
+    margin:0;
+    width: 28%;
     float: left;
 }
 .columna blockquote{
-    border: 1px solid black;
     background: #062074;
-    padding: 20px;
+    padding: 10px;
     margin-left: 5px;
     margin-right:5px;
     margin-bottom: 5px;
@@ -128,28 +143,11 @@ article footer{
 }
 .pie{
     clear: both;
-    padding: 20px;
+    padding: 10px;
     background: #34495e;
     color: white;
 }
-p{
-    margin-top: 20px;
-}
-.portada{
-    width: 300px;
-    height: 400px;
-    border: 3px solid red;
-    margin-bottom: 10px;
-}
-.descripcion{
-    text-align: justify;
-    font-family: sans-serif;
-    font-weight:lighter;
-    font-size: 15px;
-    margin-top: 0px;
-    padding-top: 0px;
-
-}
+/* Sección de Comentarios ================== */
 form{
     text-align: center;
 }
@@ -176,4 +174,9 @@ textarea{
     height: 30px;
     background: rgb(14, 75, 241);
     color:rgb(244, 248, 7);
+}
+footer{
+    background: white;
+    padding-top:5px;
+    padding-bottom: 5px;
 }
