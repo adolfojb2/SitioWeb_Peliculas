@@ -152,28 +152,42 @@ form{
     text-align: center;
 }
 legend{
-    margin-left: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 18px;
+    margin-bottom: 5px;
 }
 textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 95%;
     resize: vertical;
+    padding: 5px;
 }
 .div_boton_enviar{
     text-align: left;
-    padding-left: 12px;
+    padding-left: 18px;
 }
 .boton_enviar{
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 90px;
     height: 30px;
     background: rgb(7, 42, 133);
-    color:rgb(253, 249, 249);
+    color:rgb(110, 145, 235);
     
 }
 .boton_enviar:hover{
+    cursor: pointer;
     width: 90px;
     height: 30px;
-    background: rgb(14, 75, 241);
-    color:rgb(244, 248, 7);
+    background: rgb(7, 42, 133);
+    color:rgb(224, 228, 238);
+}
+.boton_enviar:active{
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    background: rgb(2, 20, 66);
+    color:rgb(224, 228, 238);
 }
 footer{
     background: white;
