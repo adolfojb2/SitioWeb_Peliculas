@@ -145,7 +145,7 @@ p{
 }
 /* Sección de Comentarios ================== */
 form{
-    text-align: center;
+    /* text-align: center; */
 }
 legend{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -211,4 +211,51 @@ address{
     padding: 7px;
     font-size: 15px;
     border-radius: 10px;
+}
+/* Form Login */
+.form-login{
+    height: auto;
+}
+.form-login .contenedor{
+    text-align: left;
+    margin: auto;
+    width: 320px;
+}
+.form-login legend,.form-login label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-left: 0px;
+}
+.form-login h1{
+    text-align: center;
+}
+.form-login .entrada{
+    margin-bottom: 15px;
+    width: 300px;
+    height: 25px;
+}
+.element{
+    margin-top: 10px;
+}
+.btn-ingresar{
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90px;
+    height: 30px;
+    background: rgb(7, 42, 133);
+    color:rgb(110, 145, 235);
+}
+.btn-ingresar:hover{
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    background: rgb(7, 42, 133);
+    color:rgb(224, 228, 238);
+}
+.btn-ingresar:active{
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+    background: rgb(2, 20, 66);
+    color:rgb(224, 228, 238);
 }
