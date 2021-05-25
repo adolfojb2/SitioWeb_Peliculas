@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
 }
-address{
-    padding-top: 20px;
-    padding-bottom:20px;
-}
 .cuerpo{
     background: #FDFC47;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -193,4 +189,26 @@ footer{
     background: white;
     padding-top:5px;
     padding-bottom: 5px;
+}
+address{
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.enlace_descarga{
+    text-decoration: none;
+    background-color: brown;
+    color: rgb(243, 174, 174);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.enlace_descarga:hover{
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 10px;
 }
